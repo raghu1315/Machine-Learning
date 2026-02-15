@@ -1,0 +1,7 @@
+ML Model Name,Observation
+Logistic Regression,"Achieved 82.07% accuracy with AUC of 0.9218. As a baseline linear model, it provides good interpretability and works well when data is linearly separable. Requires feature scaling for optimal performance."
+Decision Tree,Achieved 79.35% accuracy with AUC of 0.8334. Non-linear model that creates interpretable decision rules. Hyperparameter tuning (max_depth=10) helps prevent overfitting. No scaling required.
+K-Nearest Neighbors,Achieved 84.78% accuracy with AUC of 0.9006. Instance-based learning with k=5. Sensitive to feature scaling and performs well with properly normalized data. No explicit training phase.
+Naive Bayes,Achieved 85.33% accuracy with AUC of 0.9103. Probabilistic model based on Bayes theorem. Fast training and prediction. Assumes feature independence which may limit performance with correlated features.
+Random Forest,"Achieved 85.33% accuracy with AUC of 0.9285. Ensemble of 100 decision trees using bagging. Reduces overfitting, handles non-linearity well, and provides feature importance. Robust to outliers."
+XGBoost,Achieved 85.87% accuracy with AUC of 0.9075. Gradient boosting ensemble with sequential learning. Often achieves best performance through iterative error correction. Handles imbalanced data and provides regularization.
